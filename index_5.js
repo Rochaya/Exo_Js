@@ -12,10 +12,15 @@ const books = [
     { title: 'Voyage au centre de la Terre', id: 4656388, rented: 38 },
     { title: 'Guerre et Paix', id: 748147, rented: 19 }
 ];
+// Affichage des livres emprunter au moins une fois 
 
 for (var i = 0; i < books.length; i++) {
     let book = books[i];
-    let rented = books.rented;
+    let rented = book.rented;
        
-    console.log(book.title + "a ete louer :" + rented + "fois !");
+    console.log(book.title + "a ete louer :" + rented + " fois !");
 }
+
+// Affichage du livre le plus emprunter
+
+
